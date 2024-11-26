@@ -1,0 +1,6 @@
+﻿  Abonent.cpp
+  Date.cpp
+  dz4_dz_oop_telphone_book.cpp
+  Generating Code...
+dz4_dz_oop_telphone_book.obj : error LNK2005: "private: static int Abonent::num_abonent" (?num_abonent@Abonent@@0HA) already defined in Abonent.obj
+C:\Users\kutum\source\repos\Project6_dz_oop\x64\Debug\Project4_dz_oop_telphone_book.exe : fatal error LNK1169: one or more multiply defined symbols found
