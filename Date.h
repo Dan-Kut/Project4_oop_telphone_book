@@ -8,5 +8,6 @@ private:
 	int year;
 public:
 	Date(int day1, int month1, int year1);
+	void printDate();
 };
 

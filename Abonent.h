@@ -9,11 +9,19 @@ private:
 	Date born;
 	static int num_abonent;
 public:
-	char* getSn();
-	void setSn(char*);
-	const long long getPhone();
+	void setNumAbonent();
+	char* getSn() const;
+	const long long getPhone() const;
+	void getDate() const;
 
+	Abonent(char* sn, const long long phone1, int day, int month, int year);
+	Abonent(char* sn, const long long phone1);
+	Abonent(const Abonent& ab) = delete;
+	Abonent();
+
+	void printAbonent();
+	
+	~Abonent();
 
 };
-int Abonent::num_abonent = 0;
 

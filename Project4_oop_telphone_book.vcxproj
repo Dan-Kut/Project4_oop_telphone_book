@@ -24,7 +24,7 @@
     <ProjectGuid>{57d1bfa5-5d80-448f-a690-9ed5ea38a9e0}</ProjectGuid>
     <RootNamespace>Project4ooptelphonebook</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Project4_dz_oop_telphone_book</ProjectName>
+    <ProjectName>Project5_dz_oop_telphone_book</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -130,11 +130,13 @@
   <ItemGroup>
     <ClCompile Include="Abonent.cpp" />
     <ClCompile Include="Date.cpp" />
-    <ClCompile Include="dz4_dz_oop_telphone_book.cpp" />
+    <ClCompile Include="dz5_dz_oop_telphone_book.cpp" />
+    <ClCompile Include="Tel_book.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Abonent.h" />
     <ClInclude Include="Date.h" />
+    <ClInclude Include="Tel_book.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

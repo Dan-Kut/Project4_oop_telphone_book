@@ -9,3 +9,8 @@ Date::Date(int day1, int month1, int year1)
 	month = month1;
 	year = year1;
 }
+
+void Date::printDate()
+{
+	cout << this->day << "." << this->month << "." << this->year;
+}

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dz4_dz_oop_telphone_book.cpp">
+    <ClCompile Include="dz5_dz_oop_telphone_book.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Abonent.cpp">
@@ -24,12 +24,18 @@
     <ClCompile Include="Date.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Tel_book.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Abonent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Date.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tel_book.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

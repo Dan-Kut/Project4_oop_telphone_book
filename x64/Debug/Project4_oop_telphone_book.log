@@ -1,6 +1,5 @@
-﻿  Abonent.cpp
-  Date.cpp
-  dz4_dz_oop_telphone_book.cpp
-  Generating Code...
-dz4_dz_oop_telphone_book.obj : error LNK2005: "private: static int Abonent::num_abonent" (?num_abonent@Abonent@@0HA) already defined in Abonent.obj
-C:\Users\kutum\source\repos\Project6_dz_oop\x64\Debug\Project4_dz_oop_telphone_book.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Project4_dz_oop_telphone_book.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Tel_book.cpp
+C:\Users\kutum\source\repos\Project6_dz_oop\Project4_oop_telphone_book\Tel_book.cpp(45,16): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kutum\source\repos\Project6_dz_oop\Project4_oop_telphone_book\Tel_book.cpp(67,1): warning C4715: 'Tel_book::FindAbonentBySn': not all control paths return a value
+  Project4_oop_telphone_book.vcxproj -> C:\Users\kutum\source\repos\Project6_dz_oop\x64\Debug\Project5_dz_oop_telphone_book.exe
